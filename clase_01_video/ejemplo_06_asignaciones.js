@@ -26,3 +26,15 @@ console.log("Tiene algo str?: " + tiene_algo);
 
 tiene_algo = Boolean(a);
 console.log("Tiene algo a?: " + tiene_algo);
+
+let e = 50
+// retorna el modulo(resto) de e divido z
+function modulo (z){
+    return (e % z); 
+}
+
+console.log(modulo(2));
+console.log(modulo(17));
+console.log(modulo(35));
+console.log(modulo(26));
+console.log(modulo(25));
