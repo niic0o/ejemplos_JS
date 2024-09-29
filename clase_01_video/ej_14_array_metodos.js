@@ -12,3 +12,15 @@ const numeritos = [2, 4, 6, 8, 10];
 
 const numerasos = numeritos.map((numero) => numero ** 5);
 console.log(numerasos);
+
+// objeto metodos
+let objeto = {
+    nombre: 'Juan',
+    edad: 25,
+    ciudad: 'Bogota',
+    saludo : function() {return ('Hola soy ' + this.nombre + ' de ' + this.ciudad + ' Y tengo ' + this.edad + ' de edad')}
+}
+console.log(objeto.saludo())
+objeto.edad = 32;
+objeto.ciudad = 'Caracas';
+console.log('Me equivoque. ' + objeto.saludo());
