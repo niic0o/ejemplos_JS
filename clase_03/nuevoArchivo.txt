@@ -1,0 +1,1 @@
+El siguiente archivo contiene texto generado por un comando write file
